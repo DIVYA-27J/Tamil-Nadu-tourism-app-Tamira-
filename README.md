@@ -1,12 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
 
-# Run and deploy your AI Studio app
+Tamil-Nadu-tourism-app-Tamira-
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/8354a031-83ef-4415-be0c-fdb95a3f4fb9
+View our app in AI Studio: https://ai.studio/apps/8354a031-83ef-4415-be0c-fdb95a3f4fb9
 
 ## Run Locally
 
