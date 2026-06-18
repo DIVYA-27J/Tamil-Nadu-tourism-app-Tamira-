@@ -1,7 +1,4 @@
 
-# Tamil Nadu Tourism -TAMIRA
-![Uploading image.png…]()
-
 <p align="center">
   <h1 align="center">TAMIRA</h1>
   <p align="center">
