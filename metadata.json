@@ -1,0 +1,6 @@
+{
+  "name": "Tamil Nadu Smart Tourism Network",
+  "description": "Tamil Nadu Smart Tourism Network (TAMIRA) - An immersive cultural and heritage travel companion combining discovery, planning, cartography, and chronicles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
