@@ -1,21 +1,24 @@
-📜 TAMIRA
-Journey Through Living History
-<p align="center"> <img src="tamira-logo.png.jpeg" alt="TAMIRA Logo" width="220"/> </p> <p align="center"> <strong>An immersive Cultural Operating System powered by AI, storytelling, heritage intelligence, and interactive exploration.</strong> </p> <p align="center"> <em>TAMIRA is not a tourism app — it is a living cultural manuscript.</em> </p>
-📑 Table of Contents
-Overview
-Vision
-Core Features
-Vaigai AI – Cultural Intelligence
-Multi-Language Accessibility
-Design Philosophy
-Technology Stack
-System Architecture
-Platform Modules
-Project Goals
-Future Roadmap
-Run Locally
-Mission Statement
-🌍 Overview
+<div align="center">
+
+<img src="tamira-logo.png.jpeg" alt="TAMIRA Logo" width="180"/>
+
+# TAMIRA  
+### Tamil Nadu Cultural Intelligence Platform
+
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-blue)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![Express](https://img.shields.io/badge/Express.js-API-lightgrey)
+![Gemini](https://img.shields.io/badge/Gemini-LLM-orange)
+![REST](https://img.shields.io/badge/REST-API-red)
+![License](https://img.shields.io/badge/License-MIT-black)
+
+</div>
+
+---
+
+## 🌍 Overview
 
 TAMIRA is a next-generation cultural intelligence platform designed to transform tourism into meaningful exploration.
 
@@ -23,6 +26,7 @@ Unlike conventional travel applications that reduce heritage destinations to sta
 
 The platform bridges ancient Tamil civilization with modern technology, enabling users to explore temples, dynasties, festivals, local crafts, and sacred traditions through a deeply respectful and beautifully designed digital ecosystem.
 
+---
 🌟 Vision
 
 To become the world’s most immersive digital gateway to Tamil civilization by unifying:
@@ -35,29 +39,84 @@ To become the world’s most immersive digital gateway to Tamil civilization by 
 
 into a single cultural operating system.
 
-🧭 Core Features
-🗺 Interactive Cultural Discovery
+---
 
-Explore Tamil Nadu through intelligent district-based discovery maps featuring:
+## 🎯 Project Goals
 
-Heritage Landmarks
-Historical Monuments
-Pilgrimage Routes
-Cultural Corridors
-Hidden Gems
-Sacred Sites
-📜 Codex of Antiquity
+- Digitally preserve Tamil cultural heritage
+- Provide AI-powered cultural explanations
+- Enable location-aware cultural exploration
+- Ensure secure AI API usage
+- Maintain a scalable full-stack system
 
-A manuscript-inspired digital archive that transforms heritage knowledge into an immersive reading experience.
+---
 
-Includes:
+## 🧰 Technology Stack
 
-Historical Timelines
-Dynastic Histories (Chola, Pandya, Pallava)
-Cultural & Mythological Narratives
-Architectural Insights
-Heritage Documentation
-🎟 Cultural Passport & Journaling
+### 🎨 Frontend
+
+| Technology | Purpose |
+|----------|--------|
+| React 18 | UI development |
+| Vite | Fast build & dev server |
+| Tailwind CSS | Styling |
+| Lucide Icons | Icon system |
+| Motion / UI Transitions | Smooth animations |
+
+---
+
+### ⚙️ Backend
+
+| Technology | Purpose |
+|----------|--------|
+| Node.js | Runtime environment |
+| Express.js | REST API server |
+| Secure AI Proxy | API protection |
+| RESTful APIs | Client–server communication |
+
+---
+
+### 🤖 AI Integration
+
+| Technology | Purpose |
+|----------|--------|
+| Gemini LLM | AI-powered responses |
+| Server-side AI handling | API key security |
+| Context-aware prompting | Cultural intelligence |
+
+---
+
+## 🏗️ System Architecture
+
+
+┌──────────────┐
+│ Frontend │
+│ React + Vite │
+└──────┬───────┘
+│ HTTPS (REST API)
+┌──────▼───────┐
+│ Backend │
+│ Express.js │
+│ Secure Proxy │
+└──────┬───────┘
+│ Secure AI Requests
+┌──────▼───────┐
+│ Gemini LLM │
+│ AI Engine │
+└──────────────┘
+
+
+---
+
+## 🔐 Security Design
+
+- AI API keys stored only on the backend
+- No API exposure to frontend
+- Request validation and rate limiting
+- Secure server-side AI proxy
+
+---
+## 🎟 Cultural Passport & Journaling
 
 Track your exploration journey through:
 
@@ -69,6 +128,7 @@ Exploration Achievements
 
 Gamified with gold-leaf inspired badges and manuscript-style seals to promote slow, conscious tourism.
 
+---
 🎉 Festival Intelligence
 
 Discover major celebrations and regional cultural events:
@@ -78,6 +138,8 @@ Chithirai Festival
 Karthigai Deepam
 Temple Festivals
 Local Community Events
+
+---
 🧵 Local Crafts & Communities
 
 Support traditional artisan ecosystems through curated discovery of:
@@ -87,6 +149,8 @@ Bronze Casting
 Pottery Traditions
 Woodcraft Communities
 Indigenous Art Forms
+
+---
 🤖 Vaigai AI – Cultural Intelligence
 
 Vaigai AI is a context-aware cultural assistant embedded within TAMIRA.
@@ -107,6 +171,7 @@ Generate heritage-based itineraries
 
 This transforms travelers into informed cultural participants, not passive visitors.
 
+---
 🌐 Multi-Language Accessibility
 
 TAMIRA supports deep localization, not surface-level translation.
@@ -123,58 +188,8 @@ Maps & labels
 AI responses
 Historical narratives
 Reviews & journals
-🎨 Design Philosophy
 
-Inspired by:
-
-Ancient Palm-Leaf Manuscripts
-Dravidian Temple Architecture
-Historical Cartography
-Classical Tamil Literature
-🎨 Color Palette
-Deep Regal Navy #071C36
-Sand Gold #C8A25A
-Ivory Parchment #F4E9D2
-Bronze Accent #8C6239
-✒ Typography
-Playfair Display – Headings
-Cormorant Garamond – Historical content
-Inter – UI & navigation
-🛠 Technology Stack
-Frontend
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
-![Vite](https://img.shields.io/badge/Vite-Fast_Build-646CFF?logo=vite)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-Styling-38B2AC?logo=tailwind-css)
-![Lucide](https://img.shields.io/badge/Lucide_Icons-UI-black)
-![Framer Motion](https://img.shields.io/badge/Motion-Animations-0055FF?logo=framer)
-Backend & AI
-![Node](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js)
-![Express](https://img.shields.io/badge/Express.js-REST_API-black?logo=express)
-![Gemini](https://img.shields.io/badge/Gemini_LLM-AI-4285F4?logo=google)
-![Security](https://img.shields.io/badge/Secure_AI_Proxy-Key_Protection-success)
-🧱 System Architecture
-Client (React + Vite)
-│
-│ REST APIs
-▼
-Backend (Express.js)
-• Secure AI Proxy
-• Request Validation
-• Rate Limiting
-│
-│ Secure AI Calls
-▼
-Gemini LLM
-• Context-aware prompting
-• Cultural intelligence
-• Safe API key handling
-
-Architecture Principles
-
-🔐 No AI keys exposed to frontend
-⚡ Performance-first rendering
-🧩 Modular & scalable
-🌍 Expandable to other heritage regions
+---
 🧩 Platform Modules
 Dashboard – Personalized exploration hub
 Discovery – Heritage sites & districts
@@ -183,43 +198,36 @@ Festival Logs – Cultural events tracker
 Travel Journal – Personal reflections
 Cultural Passport – Progress & milestones
 Vaigai AI – Real-time cultural intelligence
-🎯 Project Goals
-Preserve cultural knowledge
-Promote responsible tourism
-Support local communities
-Increase heritage awareness
-Digitally archive Tamil civilization
-Inspire meaningful exploration
-🚀 Future Roadmap
-Phase 2
-Offline heritage maps
-AI audio narration
-Smart cultural routes
-Phase 3
-Augmented Reality experiences
-AI voice companion
-Community contributions
-Phase 4
-Pan-India cultural expansion
-Museum partnerships
-Educational integrations
-▶ Run Locally
+
+---
+
+## 🚀 Features
+
+- AI-powered cultural explanations
+- Location-aware heritage discovery
+- Interactive UI with smooth transitions
+- Secure and scalable backend
+- Modular and maintainable codebase
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+# Install dependencies
 npm install
 
-Create .env.local:
-
-GEMINI_API_KEY=your_api_key_here
+# Run frontend
 npm run dev
-🧠 Mission Statement
 
-History should not merely be visited — it should be experienced.
+# Run backend
+npm start
+📜 License
 
-TAMIRA transforms every journey into a meaningful encounter with living heritage, blending storytelling, technology, and cultural preservation.
+This project is licensed under the MIT License.
 
-🏷 Brand
+👤 Author
 
-TAMIRA
-Journey Through Living History
-Powered by Vaigai AI
+Deepika S
 
 
