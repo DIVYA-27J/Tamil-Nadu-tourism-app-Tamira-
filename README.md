@@ -215,7 +215,7 @@ Language switching dynamically rebuilds:
 
 ## 🧱 System Architecture
 
-
+```text
 ┌───────────────────┐
 │     User (UI)     │
 │   React + Vite    │
@@ -251,6 +251,7 @@ Language switching dynamically rebuilds:
 │  • Cultural Intelligence  │
 │  • Server-side Invocation │
 └────────────────────────────┘
+```
 
 ---
 
