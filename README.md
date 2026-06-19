@@ -14,31 +14,29 @@ An immersive **Cultural Operating System** powered by AI, storytelling, heritage
 
 ---
 
-<!-- Core Stack -->
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-Build-646CFF?logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-UI-38B2AC?logo=tailwindcss&logoColor=white)
-![Lucide Icons](https://img.shields.io/badge/Lucide-Icons-F56565?logo=svg&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Animations-0055FF?logo=framer&logoColor=white)
+<p align="center">
+  <!-- Frontend -->
+  <img src="https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Lucide_Icons-000000?style=for-the-badge&logo=lucide&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-EF0078?style=for-the-badge&logo=framer&logoColor=white"/>
+</p>
 
-<!-- Backend -->
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-API-000000?logo=express&logoColor=white)
+<p align="center">
+  <!-- Backend -->
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=api&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Secure_AI_Proxy-8A2BE2?style=for-the-badge&logo=shield&logoColor=white"/>
+</p>
 
-<!-- AI -->
-![Gemini LLM](https://img.shields.io/badge/Gemini-LLM-orange)
-![AI Proxy](https://img.shields.io/badge/Secure-AI%20Proxy-red)
-
-<!-- Architecture -->
-![REST API](https://img.shields.io/badge/REST-API-blue)
-![Secure Keys](https://img.shields.io/badge/API%20Keys-Safe-green)
-![Scalable](https://img.shields.io/badge/Architecture-Scalable-success)
-
-<!-- Project -->
-![MIT License](https://img.shields.io/badge/License-MIT-green)
-![Cultural Tech](https://img.shields.io/badge/Domain-Cultural%20Tech-gold)
-![AI Powered](https://img.shields.io/badge/Powered%20By-Vaigai%20AI-purple)
-
+<p align="center">
+  <!-- AI & Platform -->
+  <img src="https://img.shields.io/badge/Gemini_LLM-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Context_Aware_AI-FF6F00?style=for-the-badge&logo=brain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/API_Key_Security-2E7D32?style=for-the-badge&logo=lock&logoColor=white"/>
+</p>
 
 
 
