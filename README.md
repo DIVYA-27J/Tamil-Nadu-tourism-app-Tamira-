@@ -101,7 +101,7 @@ District-based intelligent discovery maps featuring:
 
 ---
 
-### 📜 Codex of Antiquity
+### 📜 Tamira of Antiquity
 
 A manuscript-inspired digital archive that transforms heritage knowledge into an immersive reading experience.
 
@@ -191,28 +191,6 @@ Language switching dynamically rebuilds:
 - Reviews & journals  
 
 ---
-
-## 🎨 Design Philosophy
-
-Inspired by:
-- Ancient Palm-Leaf Manuscripts  
-- Dravidian Temple Architecture  
-- Historical Cartography  
-- Classical Tamil Literature  
-
-### 🎨 Color Palette
-- Deep Regal Navy `#071C36`  
-- Sand Gold `#C8A25A`  
-- Ivory Parchment `#F4E9D2`  
-- Bronze Accent `#8C6239`  
-
-### ✒ Typography
-- **Playfair Display** – Headings  
-- **Cormorant Garamond** – Historical content  
-- **Inter** – UI & navigation  
-
----
-
 ## 🛠 Technology Stack
 
 ### Frontend
@@ -236,31 +214,67 @@ Inspired by:
 ---
 
 ## 🧱 System Architecture
-Client (React + Vite)
-│
-│ REST APIs
-▼
-Backend (Express.js)
-• Secure AI Proxy
-• Request Validation
-• Rate Limiting
-│
-│ Secure AI Calls
-▼
-Gemini LLM
-• Context-aware prompting
-• Cultural intelligence
-• Safe API key handling
+
+
+┌───────────────────┐
+│     User (UI)     │
+│   React + Vite    │
+└─────────┬─────────┘
+          │ HTTPS Requests
+          ▼
+┌────────────────────────────┐
+│   Frontend Application     │
+│                            │
+│  • React 18                │
+│  • Vite                    │
+│  • Tailwind CSS            │
+│  • Framer Motion           │
+│  • Lucide Icons            │
+└─────────┬──────────────────┘
+          │ REST API Calls
+          ▼
+┌────────────────────────────┐
+│     Backend API Server     │
+│    Node.js + Express.js    │
+│                            │
+│  • Secure AI Proxy Layer   │
+│  • Request Validation      │
+│  • Context Processing      │
+│  • API Key Protection      │
+└─────────┬──────────────────┘
+          │ Sanitized AI Requests
+          ▼
+┌────────────────────────────┐
+│     AI Engine (Gemini)     │
+│                            │
+│  • Context-aware Responses │
+│  • Cultural Intelligence  │
+│  • Server-side Invocation │
+└────────────────────────────┘
 
 ---
 
+### 🔹 Architecture Principles
 
-### Architecture Principles
+- **Separation of Concerns**
+  - Frontend handles UI & user interaction
+  - Backend handles logic, security & AI orchestration
 
-- 🔐 No AI keys exposed to frontend  
-- ⚡ Performance-first rendering  
-- 🧩 Modular & scalable  
-- 🌍 Expandable to other heritage regions  
+- **Secure AI Integration**
+  - AI API keys are **never exposed** to the client
+  - All AI calls are routed through a **server-side proxy**
+
+- **Scalability**
+  - REST-based architecture allows easy horizontal scaling
+  - Backend can be extended to support caching, rate limiting, or auth
+
+- **Performance**
+  - Vite ensures fast builds and hot reloads
+  - Lightweight REST communication minimizes latency
+
+- **Safety & Reliability**
+  - Input sanitization before AI processing
+  - Controlled AI outputs to prevent misuse
 
 ---
 
